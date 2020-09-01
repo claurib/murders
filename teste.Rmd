@@ -1,0 +1,14 @@
+---
+title: "Final Grade Distribution"
+output: html_document
+---
+
+```{r, echo=FALSE}
+load(file="rda/murders.rda")
+summary(murders)
+```
+
+      ```{r, echo=F}
+n <- nrow(murders)
+```
+Here `r n` states are compared
